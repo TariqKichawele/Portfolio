@@ -5,6 +5,7 @@ import realestateImg from '../public/assets/projects/real-estate-app.png'
 import blogappImg from '../public/assets/projects/blogpic.png'
 import carshowImg from '../public/assets/projects/carshow-app.png'
 import pixelPerfectImg from '../public/assets/projects/pixel-perfect.png'
+import eventlyImg from '../public/assets/projects/evently.png'
 
 const Projects = () => {
   return (
@@ -15,6 +16,12 @@ const Projects = () => {
             </p>
             <h2 className='py-4'>What I Have Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
+                <ProjectItem 
+                    title='Evently'
+                    img={eventlyImg}
+                    projectUrl={'/evently'}
+                    tech='Next Js'
+                />
                 <ProjectItem 
                     title='Figma clone'
                     img={figmaCloneImg}
